@@ -1,0 +1,13 @@
+<section class="experiences">
+    <div class="container">
+      <h2>Experiences</h2>
+      <div class="experience-list">
+        <div class="experience-item" *ngFor="let experience of displayedExperiences">
+          <h3>{{ experience.position }}</h3>
+          <p>{{ experience.company }} - {{ experience.duration }}</p>
+          <p>{{ experience.description }}</p>
+        </div>
+      </div>
+      <button *ngIf="showLoadMoreButton" (click)="loadMoreExperiences()">Load More</button>
+    </div>
+</section>

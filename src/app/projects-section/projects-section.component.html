@@ -1,0 +1,14 @@
+<section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-item" *ngFor="let project of displayedProjects">
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.description }}</p>
+          <img [src]="project.imageUrl" alt="{{ project.name }}" />
+          <a [href]="project.link" target="_blank">Visit Project</a>
+        </div>
+      </div>
+      <button *ngIf="showLoadMoreButton" (click)="loadMoreProjects()">Load More</button>
+    </div>
+</section>

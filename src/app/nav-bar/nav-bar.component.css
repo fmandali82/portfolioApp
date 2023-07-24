@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+  
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+  
+.nav-item {
+    margin: 0 30px;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.nav-link:hover {
+    text-decoration: underline;
+}
+  
+  /* Add some space for the content below the navigation bar */
+.page-content {
+    margin-top: 60px; /* Adjust this value to set the space according to your navbar height */
+}
