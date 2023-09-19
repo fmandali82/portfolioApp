@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 interface Education {
   degree: string;
@@ -14,7 +14,7 @@ interface Education {
 })
 export class EducationSectionComponent {
 
-  educationDetails: Education[] = [
+  @Input() educations: Education[] = [
     {
       degree: 'Bachelor of Science in Computer Science',
       institution: 'ABC University',

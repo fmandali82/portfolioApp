@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-about-section',
@@ -7,12 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AboutSectionComponent {
 
+  @Input() description: string = 'About';
+
   downloadResume() {
-    const resumeUrl = 'assets/samitha_ranasinghe_resume.pdf'; // Update with your resume file name and path
+    const resumeUrl = 'assets/samitha_ranasinghe_resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.target = '_blank';
-    link.download = 'samitha_ranasinghe_resume.pdf'; // Set the desired name for the downloaded file
+    link.download = 'samitha_ranasinghe_resume.pdf';
     link.click();
   }
 

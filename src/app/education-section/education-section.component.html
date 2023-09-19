@@ -2,10 +2,10 @@
     <div class="container">
       <h2>Education</h2>
       <div class="education-list">
-        <div class="education-item" *ngFor="let education of educationDetails">
-          <h3>{{ education.degree }}</h3>
-          <p>{{ education.institution }} - {{ education.year }}</p>
-          <p>{{ education.description }}</p>
+        <div class="education-item" *ngFor="let edu of educations">
+          <h3>{{ edu.degree }}</h3>
+          <p>{{ edu.institution }} - {{ edu.year }}</p>
+          <p>{{ edu.description }}</p>
         </div>
       </div>
     </div>

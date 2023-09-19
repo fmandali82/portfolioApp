@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contact-section',
@@ -7,11 +7,19 @@ import { Component } from '@angular/core';
 })
 export class ContactSectionComponent {
 
+  @Input() contacts: any = {
+    linkedin: "wcbjowbcuw",
+    github: "bwovurwv"
+  };
+
+  senderEmail: string = '';
+  emailContent: string = '';
+
   sendEmail() {
+    console.log('Sender Email:', this.senderEmail);
+    console.log('Email Content:', this.emailContent);
 
     const mailToUrl = `mailto:sam.b.ranasinghe@gmail.com`;
     window.open(mailToUrl);
-    
   }
-
 }

@@ -1,16 +1,17 @@
 <app-nav-bar></app-nav-bar>
 
-<div class="page-content">
-    <!-- Page content here, including the sections with IDs -->
-    <app-about-section id="about-section"></app-about-section>
-  
-    <app-projects-section id="projects-section"></app-projects-section>
+<app-home-section id="home-section" class="flex justify-between items-center h-screen bg-[url(/assets/background.JPG)] bg-cover bg-center"></app-home-section>
 
-    <app-experiences-section id="experiences-section"></app-experiences-section>
+<div class="bg-gray-700">
+    <app-about-section id="about-section"  [description]="data.about"></app-about-section>
 
-    <app-skills-section id="skills-section"></app-skills-section>
+    <app-skills-section id="skills-section" [skills]="data.skills"></app-skills-section>
 
-    <app-education-section id="education-section"></app-education-section>
+    <app-projects-section id="projects-section" [projects]="data.projects"></app-projects-section>
 
-    <app-contact-section id="contact-section"></app-contact-section>
+    <app-experiences-section id="experiences-section" [experiences]="data.experiences"></app-experiences-section>
+
+    <app-education-section id="education-section" [educations]="data.educations"></app-education-section>
+
+    <app-contact-section id="contact-section" [contacts]="data.contacts"></app-contact-section>
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 interface Experience {
   position: string;
@@ -14,7 +14,7 @@ interface Experience {
 })
 export class ExperiencesSectionComponent implements OnInit {
 
-  experiences: Experience[] = [
+  @Input() experiences: Experience[] = [
     {
       position: 'Software Developer',
       company: 'ABC Tech Solutions',

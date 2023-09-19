@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 interface Project {
   name: string;
@@ -14,44 +14,13 @@ interface Project {
 })
 export class ProjectsSectionComponent implements OnInit{
 
-  projects: Project[] = [
+  @Input() projects: Project[] = [
     {
       name: 'Project 1',
       description: 'Description for Project 1',
       imageUrl: 'project1-image-url.jpg',
       link: 'https://project1-link.com'
-    },
-    {
-      name: 'Project 2',
-      description: 'Description for Project 2',
-      imageUrl: 'project2-image-url.jpg',
-      link: 'https://project2-link.com'
-    },
-    {
-      name: 'Project 2',
-      description: 'Description for Project 2',
-      imageUrl: 'project2-image-url.jpg',
-      link: 'https://project2-link.com'
-    },
-    {
-      name: 'Project 1',
-      description: 'Description for Project 1',
-      imageUrl: 'project1-image-url.jpg',
-      link: 'https://project1-link.com'
-    },
-    {
-      name: 'Project 2',
-      description: 'Description for Project 2',
-      imageUrl: 'project2-image-url.jpg',
-      link: 'https://project2-link.com'
-    },
-    {
-      name: 'Project 2',
-      description: 'Description for Project 2',
-      imageUrl: 'project2-image-url.jpg',
-      link: 'https://project2-link.com'
-    },
-    // Add more projects as needed
+    }
   ];
 
   displayedProjects: Project[] = [];

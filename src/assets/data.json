@@ -1,0 +1,125 @@
+{
+  "about": "Welcome to my website! I am a passionate professional with expertise in various fields. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Welcome to my website! I am a passionate professional with expertise in various fields. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Welcome to my website! I am a passionate professional with expertise in various fields. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Welcome to my website! I am a passionate professional with expertise in various fields. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "projects": [
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    },
+    {
+      "name": "Project 1",
+      "description": "description for Project 1",
+      "imageUrl": "project1-image-url.jpg",
+      "link": "https://project1-link.com"
+    }
+  ],
+  "experiences": [
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "position": "Software Developer",
+      "company": "ABC Tech Solutions",
+      "duration": "Jan 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }
+  ],
+  "skills": [
+    { "name": "HTML", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "CSS", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "JavaScript", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "Angular", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "TypeScript", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "React", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "Node.js", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" },
+    { "name": "Python", "url": "https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PHOLckhUWFre4i5MMKA7.svg" }
+  ],
+  "educations": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "ABC University",
+      "year": 2022,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "ABC University",
+      "year": 2022,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }
+  ],
+  "contacts": {
+    "linkedin": "https://www.linkedin.com/in/sxmithr/",
+    "github": "https://github.com/Ranasinghe843"
+  }
+}

@@ -1,11 +1,9 @@
-<section class="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        Welcome to my website! I am a passionate professional with expertise in
-        various fields. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-      <button (click)="downloadResume()">Download Resume</button>
+<section class="p-20 flex flex-col items-center justify-center bg-gray-700 text-white">
+  <div class="text-center">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <div class="max-w-3xl mx-auto">
+      <p class="text-lg leading-relaxed mb-4">{{ description }}</p>
     </div>
-  </section>
+    <button class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" (click)="downloadResume()">Download Resume</button>
+  </div>
+</section>
