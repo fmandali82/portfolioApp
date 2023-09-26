@@ -1,12 +1,12 @@
-<section class="education">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="education-list">
-        <div class="education-item" *ngFor="let edu of educations">
-          <h3>{{ edu.degree }}</h3>
-          <p>{{ edu.institution }} - {{ edu.year }}</p>
-          <p>{{ edu.description }}</p>
-        </div>
+<section class="p-8 bg-gray-700 text-white">
+  <div class="container max-w-screen-md mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8 mt-8">Education</h2>
+    <div class="mx-auto">
+      <div class="bg-gray-800 p-4 rounded-md mb-4" *ngFor="let edu of educations">
+        <h3 class="text-xl font-semibold mb-2">{{ edu.degree }}</h3>
+        <p class="text-base mb-2">{{ edu.institution }} - {{ edu.received }}</p>
+        <p class="text-base">{{ edu.description }}</p>
       </div>
     </div>
+  </div>
 </section>

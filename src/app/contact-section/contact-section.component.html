@@ -1,30 +1,32 @@
-<section class="p-20 flex flex-col items-center justify-center bg-gray-700 text-white">
+<section class="p-20 flex items-center justify-center bg-gray-700 text-white">
     <div class="text-center">
       <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
-      <h3 class="text-lg leading-relaxed mb-4">Send me a message</h3>
-      <form (ngSubmit)="sendEmail()" #emailForm="ngForm">
+      <h3 class="text-lg leading-relaxed mb-4">Send me a message below or email me at {{contacts.email}}.</h3>
+      <form (ngSubmit)="sendEmail()" [formGroup]="emailForm">
         <div class="mb-4">
-          <input type="email" id="senderEmail" name="senderEmail" ngModel required
-                 class="mt-1 p-2 border border-gray-300 rounded-md w-full" placeholder="Your Email">
+          <input
+            type="email"
+            id="senderEmail"
+            formControlName="senderEmail"
+            class="mt-1 p-2 border border-gray-300 rounded-md w-96 text-black"
+            placeholder="Your Email"
+          />
         </div>
-    
+      
         <div class="mb-4">
-          <textarea id="emailContent" name="emailContent" ngModel required
-                    class="mt-1 p-2 border border-gray-300 rounded-md w-full h-32" placeholder="Enter your message"></textarea>
+          <textarea
+            id="emailContent"
+            formControlName="emailContent"
+            class="mt-1 p-2 border border-gray-300 rounded-md h-48 text-black w-96"
+            placeholder="Enter your message"
+          ></textarea>
         </div>
-    
+      
         <div class="flex justify-end">
-          <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Send Email</button>
+          <button type="submit" class="mx-auto px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+            Send Email
+          </button>
         </div>
       </form>
-      
-      <div class="social-links">
-        <a [href]="contacts.linkedin" target="_blank">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-        <a [href]="contacts.github" target="_blank">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
     </div>
 </section>

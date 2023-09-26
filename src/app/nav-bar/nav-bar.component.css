@@ -1,4 +1,8 @@
 .highlighted {
-    font-weight: bold; /* Add your desired styles for the highlighted item */
-    color: white; /* Highlight color */
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    z-index: 999;
 }

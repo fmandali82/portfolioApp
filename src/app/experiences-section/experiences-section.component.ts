@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 interface Experience {
   position: string;
@@ -12,7 +12,7 @@ interface Experience {
   templateUrl: './experiences-section.component.html',
   styleUrls: ['./experiences-section.component.css']
 })
-export class ExperiencesSectionComponent implements OnInit {
+export class ExperiencesSectionComponent {
 
   @Input() experiences: Experience[] = [
     {
@@ -52,23 +52,4 @@ export class ExperiencesSectionComponent implements OnInit {
       description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
   ];
-
-  displayedExperiences: Experience[] = [];
-  initialExperiencesToShow = 4;
-  experiencesPerLoad = 2;
-
-  ngOnInit() {
-    this.loadMoreExperiences();
-  }
-
-  loadMoreExperiences() {
-    const remainingExperiences = this.experiences.slice(this.displayedExperiences.length);
-    const experiencesToShow = remainingExperiences.slice(0, this.experiencesPerLoad);
-    this.displayedExperiences = [...this.displayedExperiences, ...experiencesToShow];
-  }
-
-  get showLoadMoreButton(): boolean {
-    return this.displayedExperiences.length < this.experiences.length;
-  }
-
 }

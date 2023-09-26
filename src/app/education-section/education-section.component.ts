@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 interface Education {
   degree: string;
   institution: string;
-  year: string;
+  received: string;
   description: string;
 }
 
@@ -18,13 +18,13 @@ export class EducationSectionComponent {
     {
       degree: 'Bachelor of Science in Computer Science',
       institution: 'ABC University',
-      year: '2022',
+      received: '2022',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },
     {
       degree: 'Master of Business Administration',
       institution: 'XYZ Business School',
-      year: '2020',
+      received: '2020',
       description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     // Add more education details as needed

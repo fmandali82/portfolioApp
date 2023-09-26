@@ -1,9 +1,9 @@
 <app-nav-bar></app-nav-bar>
 
-<app-home-section id="home-section" class="flex justify-between items-center h-screen bg-[url(/assets/background.JPG)] bg-cover bg-center"></app-home-section>
+<app-home-section id="home-section"></app-home-section>
 
 <div class="bg-gray-700">
-    <app-about-section id="about-section"  [description]="data.about"></app-about-section>
+    <app-about-section id="about-section"  [about]="data.about"></app-about-section>
 
     <app-skills-section id="skills-section" [skills]="data.skills"></app-skills-section>
 
@@ -15,3 +15,4 @@
 
     <app-contact-section id="contact-section" [contacts]="data.contacts"></app-contact-section>
 </div>
+<app-footer></app-footer>

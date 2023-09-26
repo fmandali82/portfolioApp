@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 interface Project {
   name: string;
@@ -12,7 +12,7 @@ interface Project {
   templateUrl: './projects-section.component.html',
   styleUrls: ['./projects-section.component.css']
 })
-export class ProjectsSectionComponent implements OnInit{
+export class ProjectsSectionComponent {
 
   @Input() projects: Project[] = [
     {
@@ -22,23 +22,5 @@ export class ProjectsSectionComponent implements OnInit{
       link: 'https://project1-link.com'
     }
   ];
-
-  displayedProjects: Project[] = [];
-  initialProjectsToShow = 4;
-  projectsPerLoad = 2;
-
-  ngOnInit() {
-    this.loadMoreProjects();
-  }
-
-  loadMoreProjects() {
-    const remainingProjects = this.projects.slice(this.displayedProjects.length);
-    const projectsToShow = remainingProjects.slice(0, this.projectsPerLoad);
-    this.displayedProjects = [...this.displayedProjects, ...projectsToShow];
-  }
-
-  get showLoadMoreButton(): boolean {
-    return this.displayedProjects.length < this.projects.length;
-  }
 
 }

@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class AboutSectionComponent {
 
-  @Input() description: string = 'About';
+  @Input() about: any = 'About';
 
   downloadResume() {
     const resumeUrl = 'assets/samitha_ranasinghe_resume.pdf';

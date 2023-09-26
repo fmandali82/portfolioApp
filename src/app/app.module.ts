@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +12,7 @@ import { ExperiencesSectionComponent } from './experiences-section/experiences-s
 import { EducationSectionComponent } from './education-section/education-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { HomeSectionComponent } from './home-section/home-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +24,14 @@ import { HomeSectionComponent } from './home-section/home-section.component';
     ExperiencesSectionComponent,
     EducationSectionComponent,
     ContactSectionComponent,
-    HomeSectionComponent
+    HomeSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
