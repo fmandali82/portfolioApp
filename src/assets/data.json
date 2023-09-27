@@ -56,9 +56,12 @@
   ],
   "skills": [
     { "name": "Python", "url": "https://www.svgrepo.com/show/452091/python.svg" },
+    { "name": "C Language", "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" },
     { "name": "Google Cloud Products", "url": "https://www.svgrepo.com/show/353805/google-cloud.svg" },
     { "name": "Tensor Flow", "url": "https://www.svgrepo.com/show/354440/tensorflow.svg" },
     { "name": "OpenCV", "url": "https://www.svgrepo.com/show/354139/opencv.svg" },
+    { "name": "LangChain", "url": "https://www.mlq.ai/content/images/2023/06/Screenshot-2023-06-15-at-8.15.36-PM.png" },
+    { "name": "Pinecone", "url": "https://seeklogo.com/images/P/pinecone-icon-logo-AF8B5B7F96-seeklogo.com.png" },
     { "name": "Flask", "url": "https://www.svgrepo.com/show/508915/flask.svg" },
     { "name": "Firebase", "url": "https://www.svgrepo.com/show/373595/firebase.svg" },
     { "name": "Swift", "url": "https://www.svgrepo.com/show/452110/swift.svg" },
@@ -70,9 +73,12 @@
     { "name": "TypeScript", "url": "https://www.svgrepo.com/show/354478/typescript-icon.svg" },
     { "name": "React", "url": "https://www.svgrepo.com/show/452092/react.svg" },
     { "name": "GraphQL", "url": "https://www.svgrepo.com/show/373644/graphql.svg" },
+    { "name": "Jest", "url": "https://www.svgrepo.com/show/373700/jest.svg" },
     { "name": "Node.js", "url": "https://www.svgrepo.com/show/354118/nodejs.svg" },
     { "name": "Arduino", "url": "https://www.svgrepo.com/show/353423/arduino.svg" },
-    { "name": "SQL", "url": "https://www.svgrepo.com/show/331760/sql-database-generic.svg" }
+    { "name": "SQL", "url": "https://www.svgrepo.com/show/331760/sql-database-generic.svg" },
+    { "name": "Vite", "url": "https://www.svgrepo.com/show/374167/vite.svg" },
+    { "name": "Jira", "url": "https://www.svgrepo.com/show/353935/jira.svg" }
   ],
   "educations": [
     {
