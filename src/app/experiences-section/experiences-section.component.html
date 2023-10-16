@@ -2,7 +2,7 @@
   <div class="container max-w-screen-md mx-auto text-center">
     <h2 class="text-3xl font-bold mb-8 mt-8">Experience</h2>
     <div class="mx-auto">
-      <div class="bg-gray-800 p-4 rounded-md mb-4" *ngFor="let experience of experiences">
+      <div class="bg-gray-900 hover:bg-gray-800 p-4 rounded-md mb-4" *ngFor="let experience of experiences">
         <h3 class="text-xl font-semibold mb-2">{{ experience.position }}</h3>
         <p class="text-base mb-2"><strong>{{ experience.company }}</strong> - {{ experience.duration }}</p>
         <p class="text-base">{{ experience.description }}</p>

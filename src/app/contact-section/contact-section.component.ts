@@ -9,8 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class ContactSectionComponent {
 
   @Input() contacts: any = {
-    linkedin: "wcbjowbcuw",
-    github: "bwovurwv"
+    email: "john@doe.com"
   };
 
   emailForm: FormGroup;
@@ -31,8 +30,8 @@ export class ContactSectionComponent {
       console.log('Sender Email:', senderEmailControl.value);
       console.log('Email Content:', emailContentControl.value);
 
-      // const mailToUrl = `mailto:sam.b.ranasinghe@gmail.com`;
-      // window.open(mailToUrl);
+      const mailToUrl = `mailto:contacts.email`;
+      window.open(mailToUrl);
     }
     else {
       console.error('Form is not valid.');

@@ -1,7 +1,7 @@
 <section class="p-20 flex items-center justify-center bg-gray-700 text-white">
     <div class="text-center">
       <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
-      <h3 class="text-lg leading-relaxed mb-4">Send me a message below or email me at {{contacts.email}}.</h3>
+      <h3 class="text-lg leading-relaxed mb-4">Send me a message below or email me at <a href="mailto:{{contacts.email}}" class="hover:underline">{{contacts.email}}</a>.</h3>
       <form (ngSubmit)="sendEmail()" [formGroup]="emailForm">
         <div class="mb-4">
           <input
@@ -12,7 +12,7 @@
             placeholder="Your Email"
           />
         </div>
-      
+
         <div class="mb-4">
           <textarea
             id="emailContent"
@@ -21,7 +21,7 @@
             placeholder="Enter your message"
           ></textarea>
         </div>
-      
+
         <div class="flex justify-end">
           <button type="submit" class="mx-auto px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
             Send Email
