@@ -30,7 +30,8 @@ export class ContactSectionComponent {
       console.log('Sender Email:', senderEmailControl.value);
       console.log('Email Content:', emailContentControl.value);
 
-      const mailToUrl = `mailto:contacts.email`;
+      //const mailToUrl = `mailto:{{contacts.email}}`;
+      const mailToUrl = `mailto:`+this.contacts.email+`?subject=Email_from_Portfolio&body=`+emailContentControl.value;
       window.open(mailToUrl);
     }
     else {
