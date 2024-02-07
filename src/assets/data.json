@@ -1,9 +1,9 @@
 {
   "about": {
-    "description": "Hey there, I'm just a Computer Engineering senior at Purdue University who's seriously into Machine Learning and all things robotics. Right now, I'm on the hunt for gigs in Software Engineering, Data Science/Analytics, or anything that involves tinkering with robots and embedded systems. I've got this mix of skills from messing around on my own and diving deep into some cool research projects. When I'm not knee-deep in code, you'll find me at the karting track, binge-watching movies, or geeking out over my coin collection. Come take a peek at my portfolio to see how I've been rolling in the tech world!",
+    "description": "Hey, I'm a Computer Engineering senior at Purdue University who's really into Machine Learning and all things robotics. Right now, I'm on the lookout for gigs in Software Engineering, Data Science/Analytics, or anything that involves playing around with robots and embedded systems. I've picked up a mix of skills from messing around on my own and diving deep into some cool research projects. When I'm not buried in code, you'll catch me at the karting track, binge-watching movies, or geeking out over my coin collection. Check out my portfolio to see what I've been up to in the tech world!",
     "linkedin": "https://www.linkedin.com/in/sxmithr/",
     "github": "https://github.com/Ranasinghe843"
-    
+
   },
   "projects": [
     {
@@ -16,6 +16,11 @@
       "name": "Face Detection with OpenCV through Arduino",
       "description": "Implemented an algorithm to track a face across a screen and improving it to recognize the particular face. Researching on using an Arduino board to run the OpenCV algorithm to use an external camera to follow a face.",
       "imageUrl": "assets/project-images/FRTS6EJHR3EHRAM.jpg"
+    },
+    {
+      "name": "Custom Evaluation Board with ESP-32",
+      "description": "Designed, fabricated and wrote firmware for a custom evaluation board using the ESP-32 micro-controller and Arduino Mega footprint",
+      "imageUrl": "assets/project-images/esp32-devkitC-v4-pinout.png"
     },
     {
       "name": "Deep Learning Q&A Chatbot using Tensorflow",
