@@ -7,6 +7,11 @@
   },
   "projects": [
     {
+      "name": "College Based Task Management System with Rails",
+      "description": "A task management system for college students to manage their assignments, projects and exams. Is being built using Ruby on Rails and AWS",
+      "imageUrl": "assets/project-images/6282f519081a58feae9b1fc4_Task-management-vs-project-management.jpeg"
+    },
+    {
       "name": "This Website (Angular Portfolio)",
       "description": "The website is built using Angular and styled with Tailwind CSS to showcase off my experiences, skills and projects while giving me a learning experience of AngularJS",
       "imageUrl": "assets/project-images/Screenshot_2023-09-26_18-27-53.png",
@@ -47,10 +52,16 @@
   ],
   "experiences": [
     {
+      "position": "Software Engineering Intern",
+      "company": "UrsaLeo INC",
+      "duration": "Feb 2024 - Present",
+      "description": "I am working with NVIDIA Omniverse Toolkit to build the graphical components to interact with Digital Twins through Universal Scene Description applications. Building on the Model-View-Controller methodology in NVIDIA GDN"
+    },
+    {
       "position": "Machine Learning Intern",
       "company": "KAYA Global",
-      "duration": "May 2023 - Present",
-      "description": "I am working on various ML concepts along with full stack development in the FERN stack of Firebase, Express, React and Node. Right now I am integrating a custom Llama2 model with a Vector DB through LangChain for help and context through a chatbot. I set up several CI/CD pipelines with Kubernetes Engine in GCP to publish apps and python services and configured services using Pub-Sub and Cloud Functions to transcribe and extract contexts through public LLMs."
+      "duration": "May 2023 - Dec 2023",
+      "description": "I worked on various ML concepts along with full stack development in the FERN stack of Firebase, Express, React and Node. Right now I am integrating a custom Llama2 model with a Vector DB through LangChain for help and context through a chatbot. I set up several CI/CD pipelines with Kubernetes Engine in GCP to publish apps and python services and configured services using Pub-Sub and Cloud Functions to transcribe and extract contexts through public LLMs."
     },
     {
       "position": "Undergraduate Research Assistant",
