@@ -55,24 +55,18 @@
       "position": "Software Engineering Intern",
       "company": "UrsaLeo INC",
       "duration": "Feb 2024 - Present",
-      "category": "industrial",
-      "markdownFile": "assets/markdown/ursa-leo.md",
       "description": "I am working with NVIDIA Omniverse Toolkit to build the graphical components to interact with Digital Twins through Universal Scene Description applications. Building on the Model-View-Controller methodology in NVIDIA GDN"
     },
     {
       "position": "Machine Learning Intern",
       "company": "KAYA Global",
       "duration": "May 2023 - Dec 2023",
-      "category": "industrial",
-      "markdownFile": "assets/markdown/kaya.md",
       "description": "I worked on various ML concepts along with full stack development in the FERN stack of Firebase, Express, React and Node. Right now I am integrating a custom Llama2 model with a Vector DB through LangChain for help and context through a chatbot. I set up several CI/CD pipelines with Kubernetes Engine in GCP to publish apps and python services and configured services using Pub-Sub and Cloud Functions to transcribe and extract contexts through public LLMs."
     },
     {
       "position": "Undergraduate Research Assistant",
       "company": "Purdue Nanoelectronics Research Laboratory",
       "duration": "May 2022 - Oct 2022",
-      "category": "research",
-      "markdownFile": "assets/markdown/surf.md",
       "description": "I worked on integrating event cameras with respective hardware and improving Vision-based UAV algorithms. I worked with the team to generate a synthetic data set for training ML algorithms by designing intelligent dynamic Gazebo worlds. I was also a Summer Undergraduate Research Fellow during the summer and learned the research process while executing literature search and produced a research paper at the end."
     }
   ],

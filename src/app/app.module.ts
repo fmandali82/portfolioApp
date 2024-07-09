@@ -14,6 +14,7 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { HomeSectionComponent } from './home-section/home-section.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResearchSectionComponent } from './research-section/research-section.component';
+import { MarkdownModalComponent } from './markdown-modal/markdown-modal.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ResearchSectionComponent } from './research-section/research-section.co
     ContactSectionComponent,
     HomeSectionComponent,
     FooterComponent,
-    ResearchSectionComponent
+    ResearchSectionComponent,
+    MarkdownModalComponent
   ],
   imports: [
     BrowserModule,
