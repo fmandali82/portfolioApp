@@ -64,6 +64,7 @@ interface Experience {
   description: string;
   category: string;
   markdownFile?: string;
+  logoUrl?: string;
 }
 
 @Component({
