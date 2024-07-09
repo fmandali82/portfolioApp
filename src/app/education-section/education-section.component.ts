@@ -7,6 +7,7 @@ interface Education {
   received: string;
   description: string;
   markdownFile?: string;
+  logoUrl?: string;
 }
 
 @Component({
