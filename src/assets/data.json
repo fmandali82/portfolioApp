@@ -47,7 +47,8 @@
     {
       "name": "1971 Ford Escort Mk1 Restoration",
       "description": "Got a non-working classic car working after a complete teardown and rebuild of the engine with a focus on the carburettor as well as the electical systems",
-      "imageUrl": "assets/project-images/IMG_3634.jpeg"
+      "imageUrl": "assets/project-images/IMG_3634.jpeg",
+      "markdownFile": "assets/markdown/google-data-analytics.md"
     }
   ],
   "experiences": [
@@ -74,6 +75,13 @@
       "category": "research",
       "markdownFile": "assets/markdown/surf.md",
       "description": "I worked on integrating event cameras with respective hardware and improving Vision-based UAV algorithms. I worked with the team to generate a synthetic data set for training ML algorithms by designing intelligent dynamic Gazebo worlds. I was also a Summer Undergraduate Research Fellow during the summer and learned the research process while executing literature search and produced a research paper at the end."
+    },
+    {
+      "position": "Undergraduate Teaching Assistant",
+      "company": "Purdue ECE",
+      "duration": "Aug 2022 - Present",
+      "category": "on-campus",
+      "description": "I held office hours, graded assignments and exams, and conducted lab sessions"
     }
   ],
   "skills": [
@@ -108,6 +116,12 @@
       "institution": "Purdue University",
       "received": "Dec 2024",
       "description": "Artificial Intelligence and Machine Learning Concentration with a Certificate in Entrepreneurship and Innovation"
+    },
+    {
+      "degree": "Google Data Analytics Professional Certificate",
+      "institution": "Coursera",
+      "received": "July 2024",
+      "markdownFile": "assets/markdown/google-data-analytics.md"
     }
   ],
   "contacts": {
