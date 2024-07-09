@@ -1,13 +1,22 @@
 {
   "about": {
     "description": "Hey, I'm a Computer Engineering senior at Purdue University who's really into Machine Learning and all things robotics. Right now, I'm on the lookout for gigs in Software Engineering, Data Science/Analytics, or anything that involves playing around with robots and embedded systems. I've picked up a mix of skills from messing around on my own and diving deep into some cool research projects. When I'm not buried in code, you'll catch me at the karting track, binge-watching movies, or geeking out over my coin collection. Check out my portfolio to see what I've been up to in the tech world!",
+<<<<<<< Updated upstream
     "linkedin": "https://www.linkedin.com/in/sxmithr/",
     "github": "https://github.com/Ranasinghe843"
+=======
+    "linkedin": "https://www.linkedin.com/in/fmandali/",
+    "github": ""
+>>>>>>> Stashed changes
 
   },
   "projects": [
     {
+<<<<<<< Updated upstream
       "name": "College Based Task Management System with Rails",
+=======
+      "name": "Engineering Projects in Community Service (EPICS)",
+>>>>>>> Stashed changes
       "description": "A task management system for college students to manage their assignments, projects and exams. Is being built using Ruby on Rails and AWS",
       "imageUrl": "assets/project-images/6282f519081a58feae9b1fc4_Task-management-vs-project-management.jpeg"
     },
@@ -16,6 +25,7 @@
       "description": "The website is built using Angular and styled with Tailwind CSS to showcase off my experiences, skills and projects while giving me a learning experience of AngularJS",
       "imageUrl": "assets/project-images/Screenshot_2023-09-26_18-27-53.png",
       "link": "https://ranasinghe843.github.io/portfolioApp"
+<<<<<<< Updated upstream
     },
     {
       "name": "Face Detection with OpenCV through Arduino",
@@ -48,10 +58,13 @@
       "name": "1971 Ford Escort Mk1 Restoration",
       "description": "Got a non-working classic car working after a complete teardown and rebuild of the engine with a focus on the carburettor as well as the electical systems",
       "imageUrl": "assets/project-images/IMG_3634.jpeg"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "experiences": [
     {
+<<<<<<< Updated upstream
       "position": "Software Engineering Intern",
       "company": "UrsaLeo INC",
       "duration": "Feb 2024 - Present",
@@ -60,19 +73,66 @@
     {
       "position": "Machine Learning Intern",
       "company": "KAYA Global",
+=======
+      "position": "Aeromechanical Engineering Intern",
+      "company": "Maglev Aero",
+      "duration": "Jan 2023 - Aug 2023",
+      "description": "I am working with NVIDIA Omniverse Toolkit to build the graphical components to interact with Digital Twins through Universal Scene Description applications. Building on the Model-View-Controller methodology in NVIDIA GDN"
+    },
+    {
+      "position": "Undergraduate Research Assistant",
+      "company": "Flight Dynamics and Controls Lab",
+>>>>>>> Stashed changes
       "duration": "May 2023 - Dec 2023",
       "description": "I worked on various ML concepts along with full stack development in the FERN stack of Firebase, Express, React and Node. Right now I am integrating a custom Llama2 model with a Vector DB through LangChain for help and context through a chatbot. I set up several CI/CD pipelines with Kubernetes Engine in GCP to publish apps and python services and configured services using Pub-Sub and Cloud Functions to transcribe and extract contexts through public LLMs."
     },
     {
       "position": "Undergraduate Research Assistant",
+<<<<<<< Updated upstream
       "company": "Purdue Nanoelectronics Research Laboratory",
       "duration": "May 2022 - Oct 2022",
       "description": "I worked on integrating event cameras with respective hardware and improving Vision-based UAV algorithms. I worked with the team to generate a synthetic data set for training ML algorithms by designing intelligent dynamic Gazebo worlds. I was also a Summer Undergraduate Research Fellow during the summer and learned the research process while executing literature search and produced a research paper at the end."
+=======
+      "company": "Jain Research Lab",
+      "duration": "May 2022 - December 2022",
+      "description": "I worked on integrating event cameras with respective hardware and improving Vision-based UAV algorithms. I worked with the team to generate a synthetic data set for training ML algorithms by designing intelligent dynamic Gazebo worlds. I was also a Summer Undergraduate Research Fellow during the summer and learned the research process while executing literature search and produced a research paper at the end."
+    },
+    {
+      "position": "Peer Counselor",
+      "company": "Office of Future Engineers",
+      "duration": "June 2024 - present",
+      "description": "I assist with student recruitment for the college of engineering at Purdue by interacting with prospective students and their families, both in-person and virtually. I provide insight into Purdue Engineering by sharing personal expereinces and knowledge gained from undergraudate experiences that would help the students identify if Purdue is the right fit fot them. Additionally, I often co-present at engineering information sessions that are presented everyday for students and families. Furthermore, I assist in the development of resources and marketing to improve guest experience as they navigate the resources provide by the Office of Future Engineers."
+    },
+    {
+      "position": "Student Office Staff",
+      "company": "University Residencies",
+      "duration": "May 2022 - present",
+      "description": "I serve as the first point of contact for students living in university dorms to assist with any issues with housing such lost keys, or roommate issues, and in getting their pacakges, along with helping them check-in and out of the dorms. During the summer terms, I additionally perform dorm safety checks and assist with hosting summer conferences.  "
+    },
+    {
+      "position": "Undergraduate Teaching Assistant",
+      "company": "School of Aeronautics and Astronautics",
+      "duration": "Jan 2024 - May 2024",
+      "description": "I assisted students in understanding the concepts and approaching HWs for AAE 364, a Control Systems Analysis course. I hold help sessions, verify/create HW solutions, grade regrade requests, and proctor exams. "
+    },
+    {
+      "position": "Peer Mentor",
+      "company": "Bechtel Innovation and Design Center",
+      "duration": "Jan 2022 - Dec 2023",
+      "description": "I trained at the design center to learn to do computer aided manufacturing (CAM) and to learn to use a CNC and manual machines. As a Peer Mentor, I assisted students for personal projects and Purdue design teams/student organizations with designing (CAD/CAM) and manufacturing their parts. I teach them how to use CNC and manual machines so they can manfucature their own parts.  "
+    },
+    {
+      "position": "Undergraduate Teaching Assistant",
+      "company": "School of Engineering Education",
+      "duration":"Aug 2021 - Dec 2021",
+      "description": "I assisted students in understanding the fundamentals of coding and data analysis using Excel, Python, and MATLAB. I attended class sessions twice a week to assist students as they completed their team HWs and class projects, assisted in grading assignments, and gave reviews on exams and HWs."
+>>>>>>> Stashed changes
     }
   ],
   "skills": [
     { "name": "Python", "url": "https://www.svgrepo.com/show/452091/python.svg" },
     { "name": "C Language", "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" },
+<<<<<<< Updated upstream
     { "name": "Google Cloud Products", "url": "https://www.svgrepo.com/show/353805/google-cloud.svg" },
     { "name": "Tensor Flow", "url": "https://www.svgrepo.com/show/354440/tensorflow.svg" },
     { "name": "OpenCV", "url": "https://www.svgrepo.com/show/354139/opencv.svg" },
@@ -106,5 +166,30 @@
   ],
   "contacts": {
     "email": "sam.b.ranasinghe@gmail.com"
+=======
+    { "name": "C++", "url": "https://www.svgrepo.com/show/452183/cpp.svg" },
+    { "name": "MATLAB & Simulink", "url": "https://www.svgrepo.com/show/373830/matlab.svg" },
+    { "name": "ROS2", "url": "https://www.vectorlogo.zone/logos/ros/ros-icon.svg" },
+    { "name": "Gazebo", "url": "https://seeklogo.com/images/G/gazebo-logo-51C46471CA-seeklogo.com.png" },
+    { "name": "Ubuntu", "url": "https://www.svgrepo.com/show/452122/ubuntu.svg" },
+    { "name": "Docker", "url": "https://www.svgrepo.com/show/448221/docker.svg" },
+    { "name": "GitHub", "url": "https://www.svgrepo.com/show/512317/github-142.svg" },
+    { "name": "AWS EC2", "url": "https://www.svgrepo.com/show/353449/aws-ec2.svg" },
+    { "name": "", "url": "https://www.svgrepo.com/show/353423/arduino.svg" },
+    { "name": "Excel", "url": "https://www.svgrepo.com/show/373590/excel2.svg" },
+    { "name": "Autodesk Fusion CAD & CAM", "url": "https://seeklogo.com/images/A/autodesk-fusion-360-logo-7F72A76397-seeklogo.com.png" },
+    { "name": "Overleaf LaTex", "url": "https://www.svgrepo.com/show/349470/overleaf.svg" }
+  ],
+  "educations": [
+    {
+      "degree": "Bachelor of Science in Aeronautical and Astronautical Engineering",
+      "institution": "Purdue University",
+      "received": "Dec 2024",
+      "description": "Specializing in Autonomy and Controls with a Minor in Electrical Engineering Technology"
+    }
+  ],
+  "contacts": {
+    "email": "falak8112.mandali@gmail.com"
+>>>>>>> Stashed changes
   }
 }
