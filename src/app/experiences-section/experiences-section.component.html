@@ -11,7 +11,7 @@
   </div>
 </section> -->
 
-<section class="p-8 bg-gray-700 text-white mt-10">
+<!-- <section class="p-8 bg-gray-700 text-white mt-10">
   <div class="container max-w-screen-md mx-auto text-center">
     <h2 class="text-3xl font-bold mb-8 mt-8">Experience</h2>
     <nav [ngClass]="{'fixed': isNavbarFixed}" class="flex justify-center items-center top-4 left-0 right-0 h-13 bg-opacity-90 bg-gray-800 rounded-full mx-auto w-max p-4 z-10">
@@ -31,6 +31,37 @@
         class="bg-gray-900 hover:bg-gray-800 p-4 rounded-md mb-4 cursor-pointer"
         *ngFor="let experience of filteredExperiences"
         (click)="openMarkdownModal(experience.markdownFile)">
+        <h3 class="text-xl font-semibold mb-2">{{ experience.position }}</h3>
+        <p class="text-base mb-2"><strong>{{ experience.company }}</strong> - {{ experience.duration }}</p>
+        <p class="text-base">{{ experience.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-markdown-modal #markdownModal></app-markdown-modal> -->
+
+<section class="p-8 bg-gray-700 text-white mt-10">
+  <div class="container max-w-screen-md mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8 mt-8">Experience</h2>
+    <nav [ngClass]="{'fixed': isNavbarFixed}" class="flex justify-center items-center top-4 left-0 right-0 h-13 bg-opacity-90 bg-gray-800 rounded-full mx-auto w-max p-4 z-10">
+      <ul class="flex space-x-6">
+        <li class="flex-grow" *ngFor="let category of categories">
+          <a
+            class="text-gray-500 text-base hover:text-white cursor-pointer"
+            [class.highlighted]="activeCategory === category.key"
+            (click)="filterExperiences(category.key)">
+            {{ category.label }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mx-auto mt-4">
+      <div
+        [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': experience.markdownFile, 'cursor-pointer': experience.markdownFile, 'cursor-default': !experience.markdownFile }"
+        class="p-4 rounded-md mb-4"
+        *ngFor="let experience of filteredExperiences"
+        (click)="experience.markdownFile ? openMarkdownModal(experience.markdownFile) : null">
         <h3 class="text-xl font-semibold mb-2">{{ experience.position }}</h3>
         <p class="text-base mb-2"><strong>{{ experience.company }}</strong> - {{ experience.duration }}</p>
         <p class="text-base">{{ experience.description }}</p>
