@@ -9,13 +9,7 @@ export class AboutSectionComponent {
 
   @Input() about: any = 'About';
 
-  openResume() {
-    const resumeUrl = 'assets/samitha_ranasinghe_resume.pdf';
-    // const link = document.createElement('a');
-    // link.href = resumeUrl;
-    // link.target = '_blank';
-    // link.download = 'samitha_ranasinghe_resume.pdf';
-    // link.click();
+  openResume(resumeUrl: string) {
     window.open(resumeUrl, '_blank');
   }
 
