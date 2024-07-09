@@ -16,39 +16,6 @@
       "description": "The website is built using Angular and styled with Tailwind CSS to showcase off my experiences, skills and projects while giving me a learning experience of AngularJS",
       "imageUrl": "assets/project-images/Screenshot_2023-09-26_18-27-53.png",
       "link": "https://ranasinghe843.github.io/portfolioApp"
-    },
-    {
-      "name": "Face Detection with OpenCV through Arduino",
-      "description": "Implemented an algorithm to track a face across a screen and improving it to recognize the particular face. Researching on using an Arduino board to run the OpenCV algorithm to use an external camera to follow a face.",
-      "imageUrl": "assets/project-images/FRTS6EJHR3EHRAM.jpg"
-    },
-    {
-      "name": "Custom Evaluation Board with ESP-32",
-      "description": "Designed, fabricated and wrote firmware for a custom evaluation board using the ESP-32 micro-controller and Arduino Mega footprint",
-      "imageUrl": "assets/project-images/esp32-devkitC-v4-pinout.png"
-    },
-    {
-      "name": "Deep Learning Q&A Chatbot using Tensorflow",
-      "description": "A story-based Q&A bot based on the BaBi dataset using basic NLP through Tensorflow. An end-to-end memory-based recurrent neural network implementation with multiple layers.",
-      "imageUrl": "assets/project-images/hero-chatbot-ux-design-product-management_0.jpg",
-      "link": "https://github.com/Ranasinghe843/quest-the-chatbot"
-    },
-    {
-      "name": "Autonomous Drone Controls Algorithm - VIP",
-      "description": "I worked with a team in integrating the computer vision algorithm in the controls algorithm for autonoumous navigation of a drone through a miniature city. I also worked on setting up a simulation of the miniature city as well as designing and 3D printing propellor guards",
-      "imageUrl": "assets/project-images/SinWave1.png",
-      "link": "https://github.com/Ranasinghe843/VIP-Documentation"
-    },
-    {
-      "name": "Conference Paper titled 'A Self-Adapting Wheel System for Space Exploration Rovers'",
-      "description": "Co-authored a paper on an efficient wheel system for space exploration rovers that would reduce instances of slipping and sinkage and presented it at the International Astronautical Congress 2021 in Dubai, UAE.",
-      "imageUrl": "assets/project-images/Screenshot_2023-09-26_18-15-32.png"
-    },
-    {
-      "name": "1971 Ford Escort Mk1 Restoration",
-      "description": "Got a non-working classic car working after a complete teardown and rebuild of the engine with a focus on the carburettor as well as the electical systems",
-      "imageUrl": "assets/project-images/IMG_3634.jpeg",
-      "markdownFile": "assets/markdown/google-data-analytics.md"
     }
   ],
   "experiences": [
