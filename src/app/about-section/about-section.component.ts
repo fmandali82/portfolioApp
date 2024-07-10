@@ -10,6 +10,7 @@ export class AboutSectionComponent {
   @Input() about: any = 'About';
 
   openResume(resumeUrl: string) {
+    console.log(resumeUrl)
     window.open(resumeUrl, '_blank');
   }
 

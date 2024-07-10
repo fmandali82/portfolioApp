@@ -44,8 +44,8 @@
 </div> -->
 
 <div *ngIf="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-  <div class="bg-black text-white max-w-screen h-4/5 p-6 rounded-md overflow-y-auto relative">
+  <div class="bg-black text-white w-3/5 h-4/5 p-6 rounded-md overflow-y-auto relative">
     <button class="text-white absolute top-4 right-4 h-8 w-8 rounded-md hover:bg-gray-500" (click)="closeModal()">⛌</button>
-    <div [innerHTML]="htmlContent" class="prose prose-invert prose-lg mt-12"></div>
+    <div [innerHTML]="htmlContent" class="w-full prose prose-invert prose-lg mt-12 text-justify"></div>
   </div>
 </div>
