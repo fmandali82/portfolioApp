@@ -13,12 +13,6 @@
       "imageUrl": "assets/images/568_cover.png"
     },
     {
-      "name": "AAE 421 Project",
-      "description": "The website is built using Angular and styled with Tailwind CSS to showcase off my experiences, skills and projects while giving me a learning experience of AngularJS",
-      "imageUrl": "assets/images/Screenshot_2023-09-26_18-27-53.png",
-      "link": "https://ranasinghe843.github.io/portfolioApp"
-    },
-    {
       "name": "Purdue Space Program",
       "markdownFile": "assets/markdown/psp.md",
       "description": "The High Altitude team aimed to design a rocket capable of crossing the space line. This experience was a valuable opportunity to delve into the manufacturing, design, and build aspects of engineering. While it did not become my chosen career path, it provided me with a crucial understanding of the engineering design process....",
