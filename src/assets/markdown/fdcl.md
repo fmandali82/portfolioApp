@@ -24,3 +24,4 @@
 
 -	Collaborating with mentor Joonwon Choi to learn and implement ROS2, Gazebo, and PX4.
 -	Developing a testing environment for drone research using Docker on a Linux computer.
+-   I successfully tested a software-in-the-loop setup by integrating PX4, Gazebo, and ROS2 with a PX4 default drone. I controlled the drone's altitude by publishing commands using ROS2, visualized the results in Gazebo, and created another ROS2 node to subscribe to the drone's published data.
