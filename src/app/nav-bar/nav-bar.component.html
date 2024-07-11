@@ -1,7 +1,0 @@
-<nav class="flex justify-center items-center fixed top-4 left-0 right-0 h-13 bg-opacity-90 bg-gray-800 rounded-full mx-auto w-max p-4">
-  <ul class="flex space-x-6">
-    <li class="flex-grow" *ngFor="let item of menuItems">
-      <a class="text-gray-500 text-base hover:text-white" [class.highlighted]="activeSection === item.link" (click)="scrollToSection(item.link)">{{ item.label }}</a>
-    </li>
-  </ul>
-</nav>
