@@ -1,5 +1,5 @@
-## Undergraduate Research Assistant
-**<a href="https://engineering.purdue.edu/JainResearchLab/" target="_blank" title="Click">Jain Research Laboratory</a>** : *May 2022 - December 2022*
+# Undergraduate Research Assistant
+**<a href="https://engineering.purdue.edu/JainResearchLab/" target="_blank" title="Click">Jain Research Laboratory</a>** 
 
 
 **Lab Director**: Dr. Neera Jain, Professor, School of Mechanical Engineering, Purdue University

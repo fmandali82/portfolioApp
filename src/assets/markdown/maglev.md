@@ -1,17 +1,38 @@
-## Purdue Space Program : High Altitude Team
-**<a href="https://purdueseds.space/high-altitude/" target="_blank" title="Click">PSPHA</a>** : *Oct 2021 – Dec 2022*
+# Aeromechanical Engineering Intern
+**<a href="https://www.linkedin.com/company/maglev-aero/" target="_blank" title="Click">Maglev Aero</a>** : Urban Air Mobility, eVTOL
 
-## Technical Team Member Contributions:
+## Spring 2023 Term (Jan 2023 – May 2023)
+**Mentors**:
 
-- Worked with the Recovery, Nosecone, and Manufacturing subteams to design, test, manufacture, and assemble the recovery system and nosecone for a high-powered solid motor rocket.
-- Assisted in the designing of a piston-based recovery system for parachute deployment for a rocket.
-- Trained myself in machining.
+-	Ian Randall (Co-founder)
+-	Bernardo Concia (Control and Dynamics Lead)
+-	Peter O’Reagan (Electromagnetics Engineer)
+-	Roman Lilligren (then, Engineering Specialist)
 
-## Manufacturing sub-team co-lead (Jan 2022 - Dec 2022):
+**Projects and Contributions**: Montecarlo Analysis for Propulsion System Simulation
 
-- Consult with various technical teams about the manufacturability of their designs and tweaked them to be drawn for manufacturability.
-- Researched different materials that can be used to manufacture multiple components of the rocket like fins, nosecone, couplers, custom piston, among other smaller parts.
-- Have designed and manufactured carbon fiber rocket fins, and a female nosecone mold using MDF.
-- Trained newer members on CNC Mills and creating CAD and CAM on Fusion 360.
+-	Performed a comprehensive Montecarlo analysis to understand the simulation model results for variable inputs.
+-	Familiarized with the MATLAB code across multiple GitHub repositories, added comments, and created flowchart documentation to elucidate script interactions and repository usage.
+-	Enhanced a repository focused on simulating aerodynamic performance by adding new features and generalizing code.
+-	Utilized MATLAB's Global Optimization Toolbox to test various optimization algorithms, identifying the most efficient ones for reducing computation time.
+-	Leveraged MATLAB’s Parallel Computing Toolbox to distribute computational load over multiple cores, significantly improving simulation efficiency.
+-	Integrated aerodynamic performance and propulsion generation models through interpolation and extrapolation techniques.
+-	Developed statistical models for design parameter variation impacting propulsion performance for Montecarlo analysis.
+-	Utilized AWS EC2 and MathWorks Cloud Center for running extensive Montecarlo simulations on virtual machines with 250 cores.
+-	Automated the simulation process for Montecarlo analysis, ensuring data was saved and organized efficiently.
+-	Post-processed data to generate 2D and 3D visualizations, aiding in performance variation analysis.
 
-**Components manufactured:**
+## Summer 2023 Term (June 2023 – Aug 2023)
+**Mentor**:Jean-Michel Fahmi (Robotics Engineer)
+
+**Projects and Contributions**:State Estimation Model Testing
+
+-	Assisted in testing the state estimation model for the propulsion system.
+-	Learned and implemented electrical wiring for the test stand with assistance from intern Samara Holmes.
+-	Connected microcontrollers to computers to uploaded state estimation code.
+-	Contributed to building and managing the test stand, running tests to gather and analyze data.
+
+## Additional Responsibilities:
+-	Supported workspace and test stand setup, performing electrical wiring and manufacturing tasks.
+-	Gained deeper insights into helicopter dynamics through simulation models and studying "Helicopter Fundamentals and Basic Aerodynamics" by the Naval Air Training Command.
+-	Developed a keen interest in electrical hardware and microcontroller coding, leading to the pursuit of a minor in Electrical Engineering Technology at Purdue University.

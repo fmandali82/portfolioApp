@@ -1,5 +1,5 @@
-## Undergraduate Research Assistant
-**<a href="https://sites.google.com/view/fdchsl/home?authuser=0" target="_blank" title="Click">Flight Dynamics and Control Lab Research</a>** : *Jan 2024 - present*
+# Undergraduate Research Assistant
+**<a href="https://sites.google.com/view/fdchsl/home?authuser=0" target="_blank" title="Click">Flight Dynamics and Control Lab Research</a>** 
 
 **Lab Director**: Dr. Inseok Hwang, Professor, School of Aeronautics and Astronautics, Purdue University
 
