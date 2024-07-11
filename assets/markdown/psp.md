@@ -1,5 +1,5 @@
 # Purdue Space Program: A SEDS Chapter
-## Team: High Altitude
+**Team**: <a href="https://purdueseds.space/high-altitude/" target="_blank" title="Click">High Altitude</a>
 
 ## Technical Team Member (Oct 2021 - Dec 2022)
 - Collaborated with the Recovery, Nosecone, and Manufacturing subteams to design, test, manufacture, and assemble the recovery system and nosecone for a high-powered solid motor rocket.

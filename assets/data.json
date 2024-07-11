@@ -1,6 +1,6 @@
 {
   "about": {
-    "description": "Hey! I am a senior in Aeronautical and Astronautical Engineering, graduating in December 2024. My journey through aerospace engineering and undergraduate research ignited a passion for Autonomy and Controls, driven by my early interest in programming for engineering projects. Hands-on experiences in manufacturing and design, coupled with learning electrical hardware and microcontrollers, led me to pursue a minor in Electrical Engineering Technology at Purdue University. Presenting at a prestigious conference and winning an award for my research reinforced my commitment to designing and implementing advanced control systems. My engineering education has taught me the importance of engineering, creating solutions for real-world problems. I am excited to contribute and learn from leading engineering companies as a controls/robotics engineer.",
+    "description": "Hey! My name is Falak Mandali and am a senior in Aeronautical and Astronautical Engineering, graduating in December 2024. My journey through aerospace engineering and undergraduate research ignited a passion for Autonomy and Controls, driven by my early interest in programming for engineering projects. Hands-on experiences in manufacturing and design, coupled with learning electrical hardware and microcontrollers, led me to pursue a minor in Electrical Engineering Technology at Purdue University. Presenting at a prestigious conference and winning an award for my research reinforced my commitment to designing and implementing advanced control systems. My engineering education has taught me the importance of engineering, creating solutions for real-world problems. I am excited to contribute and learn from leading engineering companies as a controls/robotics engineer.",
     "linkedin": "https://www.linkedin.com/in/fmandali/",
     "github": "https://github.com/fmandali82",
     "resume": "assets/Mandali_Falak_Resume.pdf"
@@ -8,8 +8,9 @@
   "projects": [
     {
       "name": "AAE 568 Project",
-      "description": "A task management system for college students to manage their assignments, projects and exams. Is being built using Ruby on Rails and AWS",
-      "imageUrl": "assets/images/6282f519081a58feae9b1fc4_Task-management-vs-project-management.jpeg"
+      "markdownFile": "assets/markdown/568.md",
+      "description": "In this course, I learned to apply optimal estimators and control algorithms such as dynamic programming, the Kalman filter, and the Linear Quadratic Regulator. I applied my learning on a team-based class project...",
+      "imageUrl": "assets/images/568_cover.png"
     },
     {
       "name": "AAE 421 Project",

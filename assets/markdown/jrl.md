@@ -8,7 +8,7 @@
 
 **Publication**: <a href="https://doi.org/10.1109/ITherm55368.2023.10177617" target="_blank" title="Click"> https://doi.org/10.1109/ITherm55368.2023.10177617</a>
 
-**Poster**: <a href="assets/jrl_poster.pdf" target="_blank" title="Click"> IEEE iTherm 2023 Poster</a>
+<a href="assets/jrl_poster.pdf" target="_blank" title="Click"> IEEE iTherm 2023 Poster</a>
 
 ## Summer 2022 Term:
 **Research Focus**: Optimization of Thermal Energy Storage (TES) Device:
