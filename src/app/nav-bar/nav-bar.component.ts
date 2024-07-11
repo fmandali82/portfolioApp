@@ -14,8 +14,8 @@ export class NavBarComponent {
     { label: 'Home', link: 'home-section' },
     { label: 'About', link: 'about-section' },
     { label: 'Skills', link: 'skills-section' },
-    { label: 'Projects', link: 'projects-section' },
     { label: 'Experiences', link: 'experiences-section' },
+    { label: 'Projects', link: 'projects-section' },
     { label: 'Education', link: 'education-section'},
     { label: 'Contact', link: 'contact-section'}
   ];

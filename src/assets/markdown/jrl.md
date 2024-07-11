@@ -8,7 +8,7 @@
 
 **Publication**: <a href="https://doi.org/10.1109/ITherm55368.2023.10177617" target="_blank" title="Click"> https://doi.org/10.1109/ITherm55368.2023.10177617</a>
 
-**Poster**: <a href="assets/jrl_poster.pdf" target="_blank" title="Click"> IEEE iTherm 2023 Poster</a>
+<a href="assets/jrl_poster.pdf" target="_blank" title="Click"> IEEE iTherm 2023 Poster</a>
 
 ## Summer 2022 Term:
 **Research Focus**: Optimization of Thermal Energy Storage (TES) Device:
@@ -35,5 +35,3 @@ Demonstrated the significant difference in TES design optimization independently
 ## Achievements:
 -	Presented research at the iTherm 2023 IEEE conference.
 -	Won the best poster award in the system-level thermal management track.
-Documentation:
--	Documented both summer and fall research projects in a technical paper using Overleaf LaTeX.

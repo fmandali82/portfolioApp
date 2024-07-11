@@ -1,11 +1,11 @@
 # Undergraduate Research Assistant
-**<a href="https://sites.google.com/view/fdchsl/home?authuser=0" target="_blank" title="Click">Flight Dynamics and Control Lab Research</a>** 
+**<a href="https://sites.google.com/view/fdchsl/home?authuser=0" target="_blank" title="Website">Flight Dynamics and Control Lab Research</a>** 
 
 **Lab Director**: Dr. Inseok Hwang, Professor, School of Aeronautics and Astronautics, Purdue University
 
 **Mentor**: Joonwon Choi (PhD candidate)
 
-**Report**: <a href="assets/fdcl_report.pdf" target="_blank" title="Click"> Research Summary</a>
+<a href="assets/fdcl_report.pdf" target="_blank" title="Click"> Research Report</a>
 
 ## Spring 2024 Term (Jan 2024 – May 2024):
 **Research Focus**: Data-Driven Modeling with Gaussian Mixture Models (GMM)
