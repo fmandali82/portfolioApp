@@ -1,0 +1,4 @@
+## Learning C++ 
+
+Realizing the potential of object orient programming in robotics, I learned C++ using 
+<a href="[assets/421_simulink.pdf](https://ocw.mit.edu/courses/6-096-introduction-to-c-january-iap-2011/pages/syllabus/)" target="_blank" title="Click"> MIT OpenCourseWare Intro to C++</a> course and using the lectures notes of ECE 39595 (Object Oriented Programming, OOP) taught in the electrical and computer enginereing department at Purdue University. I applied my knowledge by completing the projects for the ECE 39595 course, that included using C++ to create a linked list to store key-value information, designing a hash map for fast retrieval of key-value pairs, using class/method templates, and virtual methods/derived classes tto improve code usuabiltiy. I further implemented the concepts of OOP such as polymorphism and inhertance to create a very simply computrized chess game that performs logic 
