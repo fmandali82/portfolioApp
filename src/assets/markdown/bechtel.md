@@ -10,5 +10,7 @@
 <img src="assets\images\pawn.jpeg" title="Pawn chess piece made on CNC lathe" width="500">
 <img src="assets\images\knight.jpeg" title="Knight chess piece made on 5-axis CNC mill" width="500">
 <img src="assets\images\shotglass.jpeg" title="Shotglass for a friend using CNC lathe" width="500">
+<img src="assets\images\laptop_1.jpg" title="Laptop stand using manual woodworking machines" width="500">
+<img src="assets\images\laptop_2.jpg" title="Laptop stand using manual woodworking machines" width="500">
 
 
