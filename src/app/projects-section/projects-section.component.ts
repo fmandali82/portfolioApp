@@ -26,6 +26,12 @@ export class ProjectsSectionComponent {
     // Add other projects here
   ];
 
+  hoveredProject: Project | null = null;
+
+  setHoveredProject(project: Project | null) {
+    this.hoveredProject = project;
+  }
+
   @ViewChild('markdownModal') markdownModal!: MarkdownModalComponent;
 
   async openMarkdownModal(markdownFile?: string) {

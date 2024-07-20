@@ -90,6 +90,8 @@ export class ExperiencesSectionComponent implements OnInit {
   activeCategory: string = 'all';
   isNavbarFixed: boolean = false;
 
+  
+
   @ViewChild('markdownModal') markdownModal!: MarkdownModalComponent;
 
   ngOnInit() {

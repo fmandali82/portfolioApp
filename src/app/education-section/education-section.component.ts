@@ -10,12 +10,24 @@ interface Education {
   logoUrl?: string;
 }
 
+interface Award {
+  title: string;
+  issuer: string;
+  date: string;
+  description?: string;
+  markdownFile?: string;
+  imageUrl?: string;
+}
+
 @Component({
   selector: 'app-education-section',
   templateUrl: './education-section.component.html',
   styleUrls: ['./education-section.component.css']
 })
+
 export class EducationSectionComponent {
+  isNavbarFixed: boolean = false;
+  activeCategory: string = 'degrees';
   @Input() educations: Education[] = [
     {
       degree: 'Bachelor of Science in Computer Science',
@@ -32,6 +44,26 @@ export class EducationSectionComponent {
       markdownFile: 'assets/markdown/mba.md'
     }
     // Add more education details as needed
+  ];
+
+  @Input() awards: Award[] = [
+    {
+      title: 'Best Research Paper',
+      issuer: 'International Conference on AI',
+      date: 'June 2023',
+      description: 'Awarded for the best research paper on machine learning algorithms.',
+      markdownFile: 'assets/markdown/best-research-paper.md',
+      imageUrl: 'assets/images/award1.png'
+    },
+    {
+      title: 'Excellence in Software Development',
+      issuer: 'Tech Awards 2022',
+      date: 'December 2022',
+      description: 'Recognized for outstanding contributions to software development.',
+      markdownFile: 'assets/markdown/excellence-software.md',
+      imageUrl: 'assets/images/award2.png'
+    },
+    // Add more awards as needed
   ];
 
   @ViewChild('markdownModal') markdownModal!: MarkdownModalComponent;

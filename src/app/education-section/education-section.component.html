@@ -1,21 +1,55 @@
-<section class="p-8 bg-gray-700 text-white">
+<section class="p-8 bg-gray-700 text-white mt-10">
   <div class="container max-w-screen-md mx-auto text-center">
     <h2 class="text-3xl font-bold mb-8 mt-8">Education</h2>
-    <div class="mx-auto">
+    <nav [ngClass]="{'fixed': isNavbarFixed}" class="flex justify-center items-center top-4 left-0 right-0 h-13 bg-opacity-90 bg-gray-800 rounded-full mx-auto w-max p-4 z-10">
+      <ul class="flex space-x-6">
+        <li>
+          <a
+            class="text-gray-500 text-base hover:text-white cursor-pointer"
+            [class.highlighted]="activeCategory === 'degrees'"
+            (click)="activeCategory = 'degrees'">
+            Degrees & Certificates
+          </a>
+        </li>
+        <li>
+          <a
+            class="text-gray-500 text-base hover:text-white cursor-pointer"
+            [class.highlighted]="activeCategory === 'awards'"
+            (click)="activeCategory = 'awards'">
+            Awards & Achievements
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mx-auto mt-4" *ngIf="activeCategory === 'degrees'">
       <div
         [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': edu.markdownFile, 'cursor-pointer': edu.markdownFile, 'cursor-default': !edu.markdownFile }"
         class="p-4 rounded-md mb-4 flex items-center"
         *ngFor="let edu of educations"
         (click)="edu.markdownFile ? openMarkdownModal(edu.markdownFile) : null">
-
-        <div class="flex-shrink-0 mr-4 px-3">
-          <img *ngIf="edu.logoUrl" [src]="edu.logoUrl" alt="{{ edu.institution }} logo" class="h-20 w-20 rounded-md">
+        <div class="flex-shrink-0">
+          <img [src]="edu.logoUrl" alt="{{ edu.degree }}" class="h-12 w-12 rounded-md">
         </div>
-
-        <div class="text-justify">
+        <div class="ml-4 text-justify">
           <h3 class="text-xl font-semibold mb-2">{{ edu.degree }}</h3>
           <p class="text-base mb-2">{{ edu.institution }} - {{ edu.received }}</p>
           <p class="text-base" [innerHTML]="edu.description"></p>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto mt-4" *ngIf="activeCategory === 'awards'">
+      <div
+        [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': award.markdownFile, 'cursor-pointer': award.markdownFile, 'cursor-default': !award.markdownFile }"
+        class="p-4 rounded-md mb-4 flex items-center"
+        *ngFor="let award of awards"
+        (click)="award.markdownFile ? openMarkdownModal(award.markdownFile) : null">
+        <div class="flex-shrink-0">
+          <img [src]="award.imageUrl" alt="{{ award.title }}" class="h-12 w-12 rounded-md">
+        </div>
+        <div class="ml-4 text-justify">
+          <h3 class="text-xl font-semibold mb-2">{{ award.title }}</h3>
+          <p class="text-base mb-2">{{ award.issuer }} - {{ award.date }}</p>
+          <p class="text-base" [innerHTML]="award.description"></p>
         </div>
       </div>
     </div>
