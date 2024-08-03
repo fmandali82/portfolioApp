@@ -8,7 +8,7 @@
             class="text-gray-500 text-base hover:text-white cursor-pointer"
             [class.highlighted]="activeCategory === 'degrees'"
             (click)="activeCategory = 'degrees'">
-            Degrees & Certificates
+            Degree
           </a>
         </li>
         <li>
@@ -24,9 +24,11 @@
     <div class="mx-auto mt-4" *ngIf="activeCategory === 'degrees'">
       <div
         [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': edu.markdownFile, 'cursor-pointer': edu.markdownFile, 'cursor-default': !edu.markdownFile }"
-        class="p-4 rounded-md mb-4 flex items-center"
+        class="p-4 rounded-md mb-4 flex items-center relative"
         *ngFor="let edu of educations"
-        (click)="edu.markdownFile ? openMarkdownModal(edu.markdownFile) : null">
+        (click)="edu.markdownFile ? openMarkdownModal(edu.markdownFile) : null"
+        (mouseenter)="edu.markdownFile ? edu.isHovered = true : null"
+        (mouseleave)="edu.markdownFile ? edu.isHovered = false : null">
         <div class="flex-shrink-0">
           <img [src]="edu.logoUrl" alt="{{ edu.degree }}" class="h-12 w-12 rounded-md">
         </div>
@@ -35,14 +37,20 @@
           <p class="text-base mb-2">{{ edu.institution }} - {{ edu.received }}</p>
           <p class="text-base" [innerHTML]="edu.description"></p>
         </div>
+        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white"
+          *ngIf="edu.isHovered">
+          <h3 class="text-xl font-semibold">Show More</h3>
+        </div>
       </div>
     </div>
     <div class="mx-auto mt-4" *ngIf="activeCategory === 'awards'">
       <div
         [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': award.markdownFile, 'cursor-pointer': award.markdownFile, 'cursor-default': !award.markdownFile }"
-        class="p-4 rounded-md mb-4 flex items-center"
+        class="p-4 rounded-md mb-4 flex items-center relative"
         *ngFor="let award of awards"
-        (click)="award.markdownFile ? openMarkdownModal(award.markdownFile) : null">
+        (click)="award.markdownFile ? openMarkdownModal(award.markdownFile) : null"
+        (mouseenter)="award.markdownFile ? award.isHovered = true : null"
+        (mouseleave)="award.markdownFile ? award.isHovered = false : null">
         <div class="flex-shrink-0">
           <img [src]="award.imageUrl" alt="{{ award.title }}" class="h-12 w-12 rounded-md">
         </div>
@@ -50,6 +58,10 @@
           <h3 class="text-xl font-semibold mb-2">{{ award.title }}</h3>
           <p class="text-base mb-2">{{ award.issuer }} - {{ award.date }}</p>
           <p class="text-base" [innerHTML]="award.description"></p>
+        </div>
+        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white"
+          *ngIf="award.isHovered">
+          <h3 class="text-xl font-semibold">Show More</h3>
         </div>
       </div>
     </div>

@@ -54,6 +54,7 @@
 //   ];
 // }
 
+
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { MarkdownModalComponent } from '../markdown-modal/markdown-modal.component';
 
@@ -65,6 +66,7 @@ interface Experience {
   category: string;
   markdownFile?: string;
   logoUrl?: string;
+  isHovered?: boolean;
 }
 
 @Component({
@@ -89,8 +91,6 @@ export class ExperiencesSectionComponent implements OnInit {
   filteredExperiences: Experience[] = [];
   activeCategory: string = 'all';
   isNavbarFixed: boolean = false;
-
-  
 
   @ViewChild('markdownModal') markdownModal!: MarkdownModalComponent;
 

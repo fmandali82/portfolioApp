@@ -73,7 +73,7 @@
             </a>
           </ng-container>
           <h3 class="text-xl font-semibold mb-2 black-outline">
-            {{ hoveredProject === project && project.markdownFile ? 'Show More →' : project.name }}
+            {{ hoveredProject === project && project.markdownFile ? 'Show More' : project.name }}
           </h3>
           <p class="text-base mb-4 black-outline" *ngIf="hoveredProject !== project || !project.markdownFile">
             {{ project.description }}

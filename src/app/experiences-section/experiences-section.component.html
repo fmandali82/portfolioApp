@@ -1,4 +1,3 @@
-
 <section class="p-8 bg-gray-700 text-white mt-10">
   <div class="container max-w-screen-md mx-auto text-center">
     <h2 class="text-3xl font-bold mb-8 mt-8">Experience</h2>
@@ -17,18 +16,22 @@
     <div class="mx-auto mt-4">
       <div
         [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': experience.markdownFile, 'cursor-pointer': experience.markdownFile, 'cursor-default': !experience.markdownFile }"
-        class="p-4 rounded-md mb-4 flex items-center"
+        class="p-4 rounded-md mb-4 flex items-center relative"
         *ngFor="let experience of filteredExperiences"
-        (click)="experience.markdownFile ? openMarkdownModal(experience.markdownFile) : null">
-
+        (click)="experience.markdownFile ? openMarkdownModal(experience.markdownFile) : null"
+        (mouseenter)="experience.markdownFile ? experience.isHovered = true : null"
+        (mouseleave)="experience.markdownFile ? experience.isHovered = false : null">
         <div class="flex-shrink-0 px-3">
           <img *ngIf="experience.logoUrl" [src]="experience.logoUrl" alt="{{ experience.company }} logo" class="h-20 w-20 mr-4 rounded-md">
         </div>
-
         <div class="text-justify">
           <h3 class="text-xl font-semibold">{{ experience.position }}</h3>
           <p class="text-base mb-2"><strong>{{ experience.company }}</strong> - {{ experience.duration }}</p>
           <p class="text-base">{{ experience.description }}</p>
+        </div>
+        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white"
+          *ngIf="experience.isHovered">
+          <h3 class="text-xl font-semibold">Show More</h3>
         </div>
       </div>
     </div>

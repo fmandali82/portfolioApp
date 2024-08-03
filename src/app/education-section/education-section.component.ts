@@ -8,6 +8,7 @@ interface Education {
   description: string;
   markdownFile?: string;
   logoUrl?: string;
+  isHovered?: boolean;
 }
 
 interface Award {
@@ -17,6 +18,7 @@ interface Award {
   description?: string;
   markdownFile?: string;
   imageUrl?: string;
+  isHovered?: boolean;
 }
 
 @Component({
@@ -24,10 +26,10 @@ interface Award {
   templateUrl: './education-section.component.html',
   styleUrls: ['./education-section.component.css']
 })
-
 export class EducationSectionComponent {
   isNavbarFixed: boolean = false;
   activeCategory: string = 'degrees';
+
   @Input() educations: Education[] = [
     {
       degree: 'Bachelor of Science in Computer Science',
