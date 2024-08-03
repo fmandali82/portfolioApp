@@ -1,0 +1,1 @@
+<img src="assets\images\poster.jpg" title="IEEE iTherm 2023 Poster">
