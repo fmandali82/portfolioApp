@@ -7,6 +7,12 @@
   },
   "projects": [
     {
+      "name": "AAE 590: Estimation and Controls Lab",
+      "markdownFile": "assets/markdown/ECL.md",
+      "description": "In this course, I am I gaining hands-on experience with essential concepts in autonomy, focusing on estimation, control, and optimization.",
+      "imageUrl": "assets/images/ecl_cover.png"
+    },
+    {
       "name": "Learning ROS2/Gazebo/PX4",
       "markdownFile": "assets/markdown/px4.md",
       "description": "I am learning ROS2, Gazebo, and PX4-Autopilot for drone simulations in a Docker-based Ubuntu environment. I've developed ROS2 nodes for drone control and data acquisition, continuously enhancing my skills for implementing autonomous algorithms.",
@@ -31,9 +37,9 @@
       "imageUrl": "assets/images/421_cover.png"
     },
     {
-      "name": "ECET 224 & 179",
+      "name": "ECET 224 & 179 & 279",
       "markdownFile": "assets/markdown/ecet.md",
-      "description": "These courses enhanced my skills in electrical engineering technology, focusing on circuit design, microcontroller applications, and control automation using the Atmel Mega 2560 and Arduino Uno. I gained hands-on experience in C programming, digital-to-analog conversion, pulse width modulation, and using lab equipment like oscilloscopes and multimeters through weekly labs.",
+      "description": "These courses enhanced my skills in electrical engineering technology, focusing on circuit design, microcontroller applications, and embedded programming using the Atmel Mega 2560 and Arduino Uno. I gained hands-on experience in C programming, digital-to-analog conversion, pulse width modulation, and using lab equipment like oscilloscopes and multimeters through weekly labs.",
       "imageUrl": "assets/images/ecet_cover.jpg"
     },
     {
