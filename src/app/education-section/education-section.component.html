@@ -19,6 +19,14 @@
             Awards & Achievements
           </a>
         </li>
+        <li>
+          <a
+            class="text-gray-500 text-base hover:text-white cursor-pointer"
+            [class.highlighted]="activeCategory === 'publications'"
+            (click)="activeCategory = 'publications'">
+            Publications
+          </a>
+        </li>
       </ul>
     </nav>
     <div class="mx-auto mt-4" *ngIf="activeCategory === 'degrees'">
@@ -61,6 +69,28 @@
         </div>
         <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white"
           *ngIf="award.isHovered">
+          <h3 class="text-xl font-semibold">Show More</h3>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto mt-4" *ngIf="activeCategory === 'publications'">
+      <div
+        [ngClass]="{ 'bg-gray-900': true, 'hover:bg-gray-800': publication.markdownFile, 'cursor-pointer': publication.markdownFile, 'cursor-default': !publication.markdownFile }"
+        class="p-4 rounded-md mb-4 flex items-center relative"
+        *ngFor="let publication of publications"
+        (click)="publication.markdownFile ? openMarkdownModal(publication.markdownFile) : null"
+        (mouseenter)="publication.markdownFile ? publication.isHovered = true : null"
+        (mouseleave)="publication.markdownFile ? publication.isHovered = false : null">
+        <div class="flex-shrink-0">
+          <img [src]="publication.imageUrl" alt="{{ publication.title }}" class="h-12 w-12 rounded-md">
+        </div>
+        <div class="ml-4 text-justify">
+          <h3 class="text-xl font-semibold mb-2">{{ publication.title }}</h3>
+          <p class="text-base mb-2">{{ publication.location }} - {{ publication.date }}</p>
+          <p class="text-base" [innerHTML]="publication.description"></p>
+        </div>
+        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white"
+          *ngIf="publication.isHovered">
           <h3 class="text-xl font-semibold">Show More</h3>
         </div>
       </div>
