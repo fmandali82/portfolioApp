@@ -1,4 +1,4 @@
-# Engineering Projects in Community Service (EPICS)
+## Engineering Projects in Community Service (EPICS)
 
 The <a href="https://engineering.purdue.edu/EPICSlearning" target="_blank" title="Click">EPICS</a> community connects students with community partners to promote engineering for community service. I chose EPICS for my first-year engineering pathway, joining Team Global, which was created to accommodate students attending Purdue virtually from different cities worldwide during the COVID-19 pandemic.
 

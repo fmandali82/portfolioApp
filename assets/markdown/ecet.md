@@ -1,10 +1,10 @@
-# ECET 224: Electronic Systems
+## ECET 224: Electronic Systems
 
 **Professor**: Dr. Zachary Schreiber
 
 This foundational course for my minor in Electrical Engineering Technology provided an overview of key electrical and electronic systems. I learned electrical wiring and circuit design with both direct current (DC) sources and resistances, as well as alternating current (AC) sources, applications, and amplifiers. Additionally, I gained experience in connecting and controlling applications via a microcontroller (Atmel Mega 2560 on Arduino), including LEDs, motors, servos, MOSFETs, and solid-state relays. Weekly labs complemented classroom lectures, allowing me to apply my knowledge practically and use lab equipment such as oscilloscopes, multimeters, and soldering tools.
 
-# ECET 179: Introduction To Digital Systems
+## ECET 179: Introduction To Digital Systems
 
 **Professor**: Jeffery Richardson
 
