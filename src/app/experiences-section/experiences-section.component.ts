@@ -95,7 +95,7 @@ export class ExperiencesSectionComponent implements OnInit {
   @ViewChild('markdownModal') markdownModal!: MarkdownModalComponent;
 
   ngOnInit() {
-    this.filteredExperiences = this.experiences;
+    this.filteredExperiences = this.experiences.filter(exp => exp.duration.split(" ").at(-1) === 'Present');
     this.extractCategories();
   }
 
