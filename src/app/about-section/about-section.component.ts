@@ -14,4 +14,9 @@ export class AboutSectionComponent {
     window.open(resumeUrl, '_blank');
   }
 
+  openCV(cvUrl: string) {
+    console.log(cvUrl)
+    window.open(cvUrl, '_blank');
+  }
+
 }

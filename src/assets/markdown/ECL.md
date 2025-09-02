@@ -1,4 +1,4 @@
-# AAE 590 ECL: Estimation and Controls Lab
+## AAE 590 ECL: Estimation and Controls Lab
 
 **Professor**: Dr. Ran Dai
 

@@ -89,7 +89,7 @@ export class ExperiencesSectionComponent implements OnInit {
 
   categories: { key: string, label: string }[] = [];
   filteredExperiences: Experience[] = [];
-  activeCategory: string = 'all';
+  activeCategory: string = 'active';
   isNavbarFixed: boolean = false;
 
   @ViewChild('markdownModal') markdownModal!: MarkdownModalComponent;
@@ -105,7 +105,7 @@ export class ExperiencesSectionComponent implements OnInit {
       key: cat,
       label: this.capitalize(cat)
     }));
-    this.categories.unshift({ key: 'all', label: 'All' });
+    this.categories.unshift({ key: 'active', label: 'Active' });
   }
 
   capitalize(str: string): string {
@@ -114,8 +114,8 @@ export class ExperiencesSectionComponent implements OnInit {
 
   filterExperiences(category: string) {
     this.activeCategory = category;
-    if (category === 'all') {
-      this.filteredExperiences = this.experiences;
+    if (category === 'active') {
+      this.filteredExperiences = this.experiences.filter(exp => exp.duration.split(" ").at(-1) === 'Present');
     } else {
       this.filteredExperiences = this.experiences.filter(exp => exp.category === category);
     }
