@@ -14,16 +14,10 @@
       "imageUrl": "assets/images/451_cover.png"
     },
     {
-      "name": "AAE 590 ECL",
+      "name": "Waypoint Navigation of Wheeled Robots",
       "markdownFile": "assets/markdown/ECL.md",
-      "description": "In this lab-based course, I am I gaining hands-on experience with essential concepts in autonomy, focusing on estimation, control, and optimization.",
+      "description": "In AAE 590 ECL, a lab-based course, I am gained hands-on experience with essential concepts in autonomy, focusing on estimation, control, and optimization.",
       "imageUrl": "assets/images/ecl_cover.png"
-    },
-    {
-      "name": "Learning ROS2/Gazebo/PX4",
-      "markdownFile": "assets/markdown/px4.md",
-      "description": "I am learning ROS2, Gazebo, and PX4-Autopilot for drone simulations in a Docker-based Ubuntu environment. I've developed ROS2 nodes for drone control and data acquisition, continuously enhancing my skills for implementing autonomous algorithms.",
-      "imageUrl": "assets/images/px4_cover.png"
     },
     {
       "name": "Learning C++",
@@ -32,21 +26,21 @@
       "imageUrl": "assets/images/cpp_cover.webp"
     },
     {
-      "name": "AAE 568 Project",
+      "name": "Trajectory Optimization for a Drone",
       "markdownFile": "assets/markdown/568.md",
-      "description": "In this course, I learned to apply optimal estimators and control algorithms such as dynamic programming, the Kalman filter, and the Linear Quadratic Regulator. I applied my learning on a team-based class project.",
+      "description": "In AAE 568, I learned to apply optimal estimators and control algorithms such as dynamic programming, the Kalman filter, and the Linear Quadratic Regulator. I applied my learning on a team-based class project.",
       "imageUrl": "assets/images/568_cover.png"
     },
     {
-      "name": "AAE 421 Project",
+      "name": "Blimp Intercept Algorithm",
       "markdownFile": "assets/markdown/421.md",
-      "description": "In this class I learned about flight vehicle dynamic formulation and linerization techniques, static and dynamics stability, and designing control systems to stabilise flight.",
+      "description": "In AAE 421, I learned about flight vehicle dynamic formulation and linerization techniques, static and dynamics stability, and designing control systems to stabilise flight.",
       "imageUrl": "assets/images/421_cover.png"
     },
     {
-      "name": "ECET 224 & 179 & 279",
+      "name": "Learning Electronics and Embedded Programming",
       "markdownFile": "assets/markdown/ecet.md",
-      "description": "These courses enhanced my skills in electrical engineering technology, focusing on circuit design, microcontroller applications, and embedded programming using the Atmel Mega 2560 and Arduino Uno. I gained hands-on experience in C programming, digital-to-analog conversion, pulse width modulation, and using lab equipment like oscilloscopes and multimeters through weekly labs.",
+      "description": "Courses (ECET 179, 224, 279) have enhanced my skills in embedded programming using the Atmel Mega 2560 and Arduino Uno. I gained hands-on experience in C programming, digital-to-analog conversion, pulse width modulation, and using electrical equipment through weekly labs.",
       "imageUrl": "assets/images/ecet_cover.jpg"
     },
     {
